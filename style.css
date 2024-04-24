@@ -11,10 +11,6 @@
   padding: 5px;
 }
 
-.logo {
-  padding-left: 15px;
-  display: flex;
-}
 
 
 .nav-list {
@@ -25,7 +21,7 @@
 
 .nav-list>li {
   list-style: none;
-
+  padding-top: 10px;
 }
 
 .nav-list>li>a {
@@ -197,6 +193,10 @@ main {
   .profile {
     width: 20%;
   }
+
+  /* .logoname{
+    width: 10%;
+  } */
 }
 
 
@@ -204,9 +204,18 @@ main {
 @media screen and (max-width: 680px) {
 
 
-  .nav-list {
+  /* .nav-list {
     margin-left: 0px;
+  } */
+
+  .nav {
+    display: flex;
+    flex-direction: row;
   }
+
+  /* .logoname{
+    width: 15%;
+  } */
 
   .profile {
     width: 40%;
