@@ -1,0 +1,228 @@
+* {
+  background-color: rgb(7, 1, 1);
+  color: white;
+}
+
+/* for header  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid; */
+  padding: 5px;
+}
+
+.logo {
+  padding-left: 15px;
+  display: flex;
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 18px;
+  padding-right: 15px;
+}
+
+.nav-list>li {
+  list-style: none;
+
+}
+
+.nav-list>li>a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* for main  */
+
+main {
+  padding-top: 15px;
+}
+
+/* for profile  */
+
+.profilesection {
+  text-align: center;
+}
+
+.profile {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: xx-large;
+}
+
+.text {
+  color: white;
+  border-right: 2px solid red;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(255, 30, 0);
+}
+
+/* for bio  */
+
+.bio {
+  padding: 20px;
+}
+
+
+/* project  */
+
+.project {
+  margin: 30px 0;
+
+}
+
+.project>h2 {
+  padding-left: 15px;
+
+}
+
+.allcard {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  justify-content: center;
+}
+
+.card {
+  /* padding: 15px; */
+  width: 30%;
+}
+
+.title {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+.link>a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+
+/* for skills  */
+
+.skill-compo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 15px;
+}
+
+.table-skill {
+  border: 2px solid;
+  width: 100%;
+}
+
+.thead {
+  border: 2px solid;
+  text-align: center;
+}
+
+.skills {
+  padding: 15px 5px
+}
+
+.file {
+  width: 100%;
+}
+
+
+/* for contact us  */
+
+/* Style for form container */
+#contact-form {
+  max-width: 100%;
+  padding: 15px;
+
+}
+
+/* Style for form input fields */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for submit button */
+#contact-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style for form labels */
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Optional: Style for form field placeholders */
+#contact-form ::placeholder {
+  color: #999;
+}
+
+/* Optional: Style for form field focus state */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+  .profile {
+    width: 20%;
+  }
+}
+
+
+
+@media screen and (max-width: 680px) {
+
+
+  .nav-list {
+    margin-left: 0px;
+  }
+
+  .profile {
+    width: 40%;
+  }
+
+  .allcard {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .skill-compo {
+    grid-template-columns: 1fr;
+  }
+
+}
