@@ -7,13 +7,13 @@ var typing = new Typed(".text", {
 
 const projectdata = [
   {
-    "img": "/Entertainment.png",
+    "img": "/image/Entertainment.png",
     "live": "https://entertainment-app-1-kvea.onrender.com/",
     "github": "https://github.com/chinmaydhabale/Entertainment-app",
     "title": "Entertainment-App",
   },
   {
-    "img": "/resumebuilder.png",
+    "img": "/image/resumebuilder.png",
     "live": "https://resume-builder-bay.vercel.app/",
     "github": "https://github.com/chinmaydhabale/Resume-Builder",
     "title": "Resume Builder",
