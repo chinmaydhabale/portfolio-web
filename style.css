@@ -105,6 +105,10 @@ main {
 
 /* for skills  */
 
+.skillhead {
+  padding-left: 15px;
+}
+
 .skill-compo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
